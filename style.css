@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    text-align: center;
+    background: rgb(148, 145, 145);
+    
+}
+
+img {
+  width: 450px;
+  height: 500px;
+  border-radius: 40px;
+}
+
+.titulo {
+  flex-direction: column;
+  column-gap: -10px;
+  background-color: whitesmoke;
+  margin: 20px 200px 10px 200px;
+  border-radius: 10px;
+}
+
+button {
+  font-size: 20px;
+  padding: 6px;
+  border-radius: 6px;
+  background: rgb(19, 18, 18);
+  color: whitesmoke;
+  border: solid 2px whitesmoke;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.resultadoPersonagem {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
